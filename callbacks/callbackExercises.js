@@ -15,14 +15,9 @@
 
 
 
-// 1. [Extra Credit] Write a function, `once`, (see: http://underscorejs.org/#once) that takes a function and returns a version of that function which can only be called once. [Hint: you need a closure]
-
-
-
-
-//   You probably don't want to be able to double charge someone's credit card. Here is an example of how to use it:
-    var chargeCreditCard = function(num, price){
+// 1. [Extra Credit] Write a function, `once`, (see: http://underscorejs.org/#once) that takes a function and returns a version of that function which can only be called once. [Hint: you need a closure.] Use case: You probably don't want to be able to double charge someone's credit card. Here is an example of how to use it:
+    // var chargeCreditCard = function(num, price){
 //       //charges credit card for a certain price
-    };
-    var processPaymentOnce = once(chargeCreditCard);
+    // };
+    // var processPaymentOnce = once(chargeCreditCard);
 //     processPaymentOnce(123456789012, 200);
